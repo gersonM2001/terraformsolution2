@@ -59,7 +59,7 @@ resource "azurerm_monitor_diagnostic_setting" "monitor_ui" {
   metric {
     category = "AllMetrics"
     enabled  = true
-    # Eliminado retention_policy (obsoleto)
+    
   }
 
   enabled_log {
@@ -84,7 +84,7 @@ resource "azurerm_monitor_diagnostic_setting" "monitor_api" {
   metric {
     category = "AllMetrics"
     enabled  = true
-    # ⚠️ Eliminado retention_policy (obsoleto)
+    
   }
 
   enabled_log {

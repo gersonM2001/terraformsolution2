@@ -20,5 +20,4 @@ resource "azurerm_key_vault" "key_vault" {
   }
 }
 
-# Configuración del cliente para obtener la información del inquilino
 data "azurerm_client_config" "current" {}
